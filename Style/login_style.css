@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+	 bady{
+		width:1300px;
+		height:auto;}
+	.header{
+		width:1300px;
+		height:85px;
+		background:#ccc;
+		margin:o auto;}
+	.hesd_logo{
+		width:100px;
+		height:85px;
+		float:left;}
+	.hesd_logo img{
+		windth:72px;
+		height:85px;}	
+	.head_con{
+		width:1200px;
+		height:85px;
+		float:left;}
+	.head_con p{
+		text-wrap:normal;
+		font-size:24px;
+		font-family:"黑体";}	
+	.content{
+		width:1277px;
+		height:400px;}
+	 .content_log{
+		 width:349px;
+		 height:380px;
+		 border:3px solid #F00;
+		 margin:10px auto;}
+	.log_top{
+		width:349px;
+		height:57px;
+		text-align:center;}
+	.log_top input{
+		margin:0 10px;
+		background:#FFF;
+		font-size:24px;
+		line-height:51px;
+		border:none;
+		color:black;}
+	.log_mid{
+		width:349px;
+		height:238px;}	
+	.log_mid p{
+		text-align:center;}
+	#log_con1{
+		width:349px;
+		height:307px;}
+	.log_foot{
+		width:349px;
+		height:29px;}
+	.log_foot li{
+		list-style:none;
+		float:left;}
+	.log_foot li a,#log_con1 p a{
+		color:black;
+		text-decoration:none;}	
+	.log_foot li a:hover,#log_con1 p a:hover{
+		color:red;
+		border-bottom:1px solid #F00;}
+	.log_li1{
+		width:74px;
+		height:29px;}
+	.log_li2{
+		width:102px;
+		height:29px;}
+	.log_li3{
+		width:98px;
+		height:29px;}
+	.log_con2{
+		width:349px;
+		height:307px;}
+	#log_con_form{
+		width:300px;
+		height:300px;
+		margin:10px auto;
+		display:none;}
+	#log_con_form_div{
+		width:280px;
+		height:28px;
+		margin:5px 0;
+		padding:0;}			
+	.log_con_form_div1{
+		width:280px;
+		height:28px;
+		margin:10px 0 0 0;
+		background:#ffebec url(../images/warn.JPG) no-repeat left;
+		display:none;}
+	.log_con_form_div1 p{
+		margin:0 27px;
+		line-height:24px;
+    	font-size: 12px;
+		color:red;
+    	padding-top: 5px;}		
+	.log_con_form_div2{
+		width:280px;
+		height:33px;
+		border: solid 1px #ddd;
+		margin-top:10px;}		
+	 .img1{
+		width:42px;
+		height:35px;
+		background:url(../images/16.jpg) no-repeat;
+		background-size:cover;
+		float:left;}
+	.img2{
+		width:42px;
+		height:35px;
+		background:url(../images/17.jpg) no-repeat;
+		background-size:110%;
+		float:left;}	
+	.log_con_form_div2_input{
+		width:234px;
+		height:30px;
+		font-size:15px;
+		float:left;}
+	.log_con_form_div2_code{
+		width:135px;
+		height:29px;}		
+	#log_con_form span a{
+		text-decoration:none;
+		color:black;
+		display:block;
+		margin:6px 0;
+		float:right;}
+	#log_con_form span a:hover{
+		color:red;} 
+	.form_btn{
+		width:300px;
+		height:30px;
+		background:#F00;
+		font-family:黑体；;
+		font-size:18px;
+		color:#FFF;}
+	.log_con_form_div3{
+		width:280px;
+		height:33px;
+		border: solid 1px #ddd;
+		line-height:30px;
+		margin:10px 0 0 0 ;}
+	.log_con_form_div3 img{
+		float:right;}		
+	.form_ul{
+		width:300px;
+		height:25px;}
+	.form_ul li{
+		list-style:none;
+		float:left;
+		margin:0 5px;}
+	.form_ul li a{
+		text-decoration:none;
+		color:black;}
+	.form_ul li a:hover{
+		color:red;}																			  	 		
+	.footer{
+		width:1277px;
+		height:50px;
+		line-height:50px;
+		background:#ccc;
+		text-align:center;}			
+

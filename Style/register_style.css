@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+	 bady{
+		width:100%;
+		height:auto;
+		font-size:100%;}
+	.header{
+		width:94%;
+		height:90px;
+		background:#eee;
+		margin:0 auto;}
+	.head_logo{
+		width:10.2%;
+		height:90px;
+		float:left;}
+	.head_logo img{
+		width:100%;
+		height:90px;}	
+	.head_con{
+		width:89.8%;
+		height:90px;
+		float:left;}
+	.head_con_l	{
+		width:15%;
+		height:90px;
+		float:left;
+		margin:0 1%;
+		line-height:45px;}
+	.head_con_l	p{
+		font-family:黑体;
+		font-size:1.5em;
+		font-weight:bold;}
+	.head_con_r	{
+		width:83%;
+		height:90px;
+		float:left;}
+	.head_con_r	p{
+		font-family:黑体;
+		font-size:1.125em;
+		text-align:right;
+		margin:45px 0;
+		padding-right:10%;	     
+		color:#ccc;}
+	.head_con_r	p a{
+		text-decoration:none;
+		color:black;}
+	.head_con_r	p a:hover{
+		color:red;}					
+	.content{
+		width:94%;
+		height:auto;
+		margin:auto;}
+	.cont_reg{
+		width:40%;
+		height:623px;
+		margin:10px auto;}
+	.con_reg_div1{
+		border: solid 1px #ddd;
+    	width: 100%;
+    	height: 52px;}
+	.con_reg_div1 label{
+		float: left;
+    	width: 30%;
+    	height: 52px;
+    	line-height:52px;
+    	padding-left: 4%;}
+	.con_div1_filed{
+		border: 0 none;
+    	font-size: 0.875em;
+    	width: 38%;
+    	height: 25px;
+    	padding:3.2% 0 2% 4%;
+		float:left;}
+	.con_reg_div1 img{
+		width:20%;
+		height:35px;
+		float:left;
+		margin:1.6% 0;}	
+	#span{
+		width: 24%;
+    	height: 53px;
+    	line-height: 53px;
+    	color: red;
+    	display: block;
+    	float: left;
+    	text-align: center;}	
+	#i_status2,#i_status3,#i_status4{
+		width:33%;
+		height:53px;
+		background:url(../images/12.jpg) no-repeat right;
+		position:relative;
+		left:68%;
+		top:0px;
+		display:none;}		
+	.con_reg_div2{
+		width:100%;
+		height:32px;}	
+	.con_reg_div2 p{
+		margin:0 27px;
+		line-height:18px;
+		color: #c5c5c5;
+    	font-size:0.875em;
+    	padding-top: 5px;}
+     #rename_filed1,#regpass_filed1,#regpaw_filed1,#regtel_filed1,#regcode_filed1{
+		width:100%;
+		height:32px;
+		background:url(../images/hint.JPG) no-repeat left;
+		display:none;}
+	#rename_filed2,#rename_filed3,#regpass_filed2,#regpaw_filed2,#regtel_filed2,#regcode_filed2{
+		width:100%;
+		height:32px;
+		background:url(../images/warn.JPG) no-repeat left;
+		display:none;}
+	#regpass_filed3	{
+		width:100%;
+		height:32px;
+		background:url(../images/13.jpg) no-repeat left;
+		display:none;}
+	#regpass_filed4	{
+		width:100%;
+		height:32px;
+		background:url(../images/14.jpg) no-repeat left;
+		display:none;}
+	#regpass_filed5 {
+		width:100%;
+		height:32px;
+		background:url(../images/15.jpg) no-repeat left;
+		display:none;}
+	.reg_address{
+		width:30%;
+		height:32px;
+		margin:10px 0;}
+	.city{
+		width:63%;
+		height:52px;
+		float:left;}		
+	.con_reg_sub{
+		width:100%;
+		height:52px;
+		border:1px solid #ddd;
+		background:#F00;}
+	.con_reg_sub_filer{
+		border:0 none;
+		font-size:1.25em;
+		display:block;
+		margin:3% auto;
+		background:#F00;
+		color:#DDD;}					
+	.footer{
+		width:94%;
+		height:50px;
+		line-height:50px;
+		background:#eee;
+		text-align:center;}	
+@media screen and (min-width: 768px) and (max-width: 1116px)
+{	
+	html{
+		font-size:80%;}	
+	.cont_reg{
+		width:53%;}	
+}
+@media screen and (min-width: 480px) and (max-width: 767px)	
+{
+	html{
+		font-size:55%;}
+	.head_con_l{
+		line-height:90px;}		
+	.cont_reg{
+		width:65%;}	
+}	

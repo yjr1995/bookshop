@@ -1,0 +1,9 @@
+﻿<?php
+error_reporting(0);
+include("LinkMysql.php");
+include("DataClass.php");
+$tmp=$_GET['regName'];
+$info=get("member",$tmp,"LoginName");
+if($info)
+echo"已存在";
+?>

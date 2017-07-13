@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	width:1277px;
+	height:80px;
+	background:#0C0;}
+	
+.header p{
+	font-size:24px;
+	color:red;
+	line-height:80px;
+	text-align:center;
+	font-family:华文琥珀;
+	font-weight:normal;}
+.header p img{
+	width:80px;
+	height:80px;
+	float:left;}	
+.header p a{
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+	padding-left:230px;}
+.header p a:hover{
+	color:#03C;}	

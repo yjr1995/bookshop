@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+form{
+	width:1277px;
+	height:500px;
+	background:url(../../images/Administrator.png) no-repeat center;
+	background-size:cover;
+	text-align:center;}
+.login{
+	width:400px;
+	height:300px;
+	margin:auto;}
+.login p{
+	font-size:18px;}		
+.input{
+	width:300px;
+	height:30px;
+	margin-top:5px;}
+.btn{
+	width:400px;
+	height:50px;
+	background:red;
+	font-size:20px;}
+.footer{
+	width:1277px;
+	height:50px;
+	background:#999;
+	text-align:center;
+	padding-top:20px;}			
+

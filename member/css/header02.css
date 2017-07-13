@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		width:100%;
+		height:auto;}
+    #header{
+		width:1300px;
+		height:170px;
+		margin:auto;
+		position:relative;}
+	.head_logo{
+		width:210px;
+		height:170px;
+		float:left;}		
+	#head_con{
+		width:1090px;
+		height:170px;
+		float:left;
+		position:relative;}
+	#head_con_top{
+		width:1090px;
+		height:37px;
+		background:#e1e2e4;}
+	#heaad_city{
+		width:30px;
+		height:37px;
+		background:url(../../images/wap.JPG) no-repeat left;
+		background-size: contain;
+		float:left;}		
+	.head_top_rig{
+		width:1060px;
+		height:37px;
+		float:left;
+		}
+	.head_top_rig ul{
+		position:relative;
+		top:-5px;
+		right:0;
+		width:1060px;}	
+	.head_top_rig ul li{
+		float:left;
+		display:block;
+		list-style:none;
+		margin:0 28px;}
+	.head_top_rig ul li a{
+		text-decoration:none;
+		color:#999;}
+	.head_top_rig ul li a:hover{
+		color:#F00;
+		background:#ccc;}
+	.head_top_rig button{
+		border:none;
+		background:#e1e2e4;
+		margin-bottom:0;
+		}	
+	.head_con_rig_null{
+		width:15px;
+		height:25px;
+		background: url(../../images/4.jpg) no-repeat center;
+		background-size: contain;
+		float:right;}			
+	.head_con_mid{
+		height:93px;
+		width:1090px;
+		float:left;
+		margin:0;}
+	.head_con_mid_l{
+		width:681px;
+		height:93px;
+		float:left;}
+	.head_con_mid_lcon{
+		width:550px;
+		height:35px;
+		margin:29px 0 0 130px;}	
+	.head_con_mid_lcon_tet{
+		width:500px;
+		height:35px;
+		float:left;}	
+	.head_con_mid_lcon img{
+		width:46px;
+		height:41px;
+		float:left;
+		background:#F00;}	
+	.head_con_mid_m{
+		width:249px;
+		height:93px;
+		float:left;}
+	.head_con_mid_mcon{
+		width:190px;
+		height:35px;
+		background:url(../../images/1.jpg) no-repeat center;
+		background-size:cover;
+		text-align:center;
+		margin:29px 0 0 29px;}
+	.head_con_mid_mcon a{
+		color:red;
+		text-decoration:none;
+		line-height:35px;
+		font-size:13px;}		
+	.head_con_mid_r{
+		width:160px;
+		height:93px;
+		float:left;}
+	.head_con_mid_rcon{
+		width:72px;
+		height:67px;
+		background:url(../../images/2.jpg) no-repeat;
+		background-size:cover;}	
+	#head_con_footer{
+		width:1300px;
+		height:50px;
+		float:left;}
+	#head_con_footer ul li{
+		list-style:none;
+		float:left;
+		display:block;
+		margin:0 10px;} 
+	#head_con_footer ul li a{
+		font-size:18px;
+		font-weight:bold;
+		color:#000;
+		text-decoration:none;
+		font-family:黑体；} 
+	#head_con_footer ul li a:hover{
+		color:red;}	
+    #page_1{
+		width:150px;
+		height:150px;
+		background:#ccc;
+		position:absolute;
+		left:68px;
+		top:180px;
+		z-index:1;
+		display:none;}
+	#page_1 li{
+		list-style:none;
+		line-height:25px;}
+	#page_1 li a{
+		text-decoration:none;
+		color:#666;}
+	#page_1 li a:hover{
+		color:red}	
+	#page_2{
+		width:277px;
+		height:166px;
+		background:#ccc;
+		z-index:1;
+		position:absolute;
+		top:40px;
+		left:220px;
+		display:none;}
+	#page_2 li{
+		list-style:none;}	
+	#page_2 li a{
+		text-decoration:none;
+		color:#666;
+		margin:0 10px;}
+	#page_2 a:hover{
+		color:red;}	
+	#page_3{
+		width:173px;
+		height:201px;
+		background:#ccc;
+		position:absolute;
+		left:470px;
+		top:40px;
+		z-index:1;
+		display:none;}
+	#page_3 td{
+		line-height:30px;}	
+	#page_3 td a{
+		color:#666;
+		text-decoration:none;
+		font-size:15px;}
+	#page_3 td a:hover{
+		color:red;}
+	#page_4{
+		width:991px;
+		height:243px;
+		background:#ccc;
+		display:none;
+		position:absolute;
+		top:60px;
+		left:10px;
+		z-index:1;}
+	.page_4_table1{
+		width:314px;
+		height:243px;
+		float:left;}	
+	.page_4_table1 a,.page_4_table2 a{
+		display:block;
+		line-height:30px;
+		color:black;
+		text-decoration:none;}
+	.page_4_table1 a:hover,.page_4_table2 a:hover{
+		color:red;}	
+	.page_4_table2{
+		width:225px;
+		height:243px;
+		float:left;}	
+	#page_5{
+		width:182px;
+		height:372px;
+		background:#ccc;
+		position:absolute;
+		top:40px;
+		left:740px;
+		z-index:1;
+		display:none;}
+	#page_5 div{
+		width:182px;
+		height:100px;
+		margin: 5px 0;
+		font-size:12px;
+		color:red;}
+	#page_5 div p{
+		display:block;
+		float:left;
+		margin:0 5px;}
+	#page_5 div h5{
+		color:black;}		
+	#page_5 div p img{
+		width:75px;
+		height:75px;}
+
+	#content{
+		width:1300px;
+		height:540px;
+		margin:15px auto;}									 				
+
+

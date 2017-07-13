@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	font-size:70%;}	
+.head_con_l	p{
+	line-height:50px;}	
+.head_con_r	p{
+	margin:10% 0;}	
+.cont_reg{
+	width:70%;}	
